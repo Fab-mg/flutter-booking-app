@@ -119,7 +119,7 @@ class _CooperativeListPageState extends State<CooperativeListPage> {
               .push(MaterialPageRoute(builder: (_) => CooperativeCreatePage()));
         },
       ),
-      drawer: NavigationDrawer(),
+      drawer: MyNavigationDrawer(),
     );
   }
 }

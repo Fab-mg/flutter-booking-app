@@ -79,7 +79,7 @@ class _ReservationListPageState extends State<ReservationListPage> {
           ],
         ),
       ),
-      drawer: NavigationDrawer(),
+      drawer: MyNavigationDrawer(),
       body: !dataIsLoaded
           ? Center(
               child: CircularProgressIndicator(),

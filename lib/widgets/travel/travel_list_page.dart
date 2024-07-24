@@ -87,7 +87,7 @@ class _TravelListPageState extends State<TravelListPage> {
           ],
         ),
       ),
-      drawer: NavigationDrawer(),
+      drawer: MyNavigationDrawer(),
       body: !dataIsLoaded
           ? Center(
               child: CircularProgressIndicator(),

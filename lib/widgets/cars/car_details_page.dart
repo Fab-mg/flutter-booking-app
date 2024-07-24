@@ -66,7 +66,7 @@ class _ViewCarPageState extends State<ViewCarPage> {
         //       child: Text('Edit Car details'))
         // ],
       ),
-      drawer: const NavigationDrawer(),
+      drawer: const MyNavigationDrawer(),
       body: isLoading
           ? Center(child: CircularProgressIndicator())
           : apiResponse.error

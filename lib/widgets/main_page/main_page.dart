@@ -65,7 +65,7 @@ class _MainPageState extends State<MainPage> {
         ),
         shadowColor: Colors.transparent,
       ),
-      drawer: NavigationDrawer(),
+      drawer: MyNavigationDrawer(),
       body: !isLoggedIn
           ? Text(
               "Votre session a expiré. Veuillez retourner à la page de connexion.")

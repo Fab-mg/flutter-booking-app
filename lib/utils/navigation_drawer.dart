@@ -16,14 +16,14 @@ import '../widgets/cooperative/cooperative_list_page.dart';
 import '../widgets/cooperative_member/coopMember_list_page.dart';
 import '../widgets/travel/travel_list_page.dart';
 
-class NavigationDrawer extends StatefulWidget {
-  const NavigationDrawer({super.key});
+class MyNavigationDrawer extends StatefulWidget {
+  const MyNavigationDrawer({super.key});
 
   @override
-  State<NavigationDrawer> createState() => _NavigationDrawerState();
+  State<MyNavigationDrawer> createState() => _MyNavigationDrawerState();
 }
 
-class _NavigationDrawerState extends State<NavigationDrawer> {
+class _MyNavigationDrawerState extends State<MyNavigationDrawer> {
   bool isLoggedIn = true;
   AuthService get authService => GetIt.I<AuthService>();
   UserService get userService => GetIt.I<UserService>();

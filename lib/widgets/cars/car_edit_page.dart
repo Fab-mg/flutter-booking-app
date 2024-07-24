@@ -1,5 +1,3 @@
-import 'dart:ffi';
-
 import 'package:flutter/material.dart';
 import 'package:get_it/get_it.dart';
 import 'package:smarta1/services/car_service.dart';

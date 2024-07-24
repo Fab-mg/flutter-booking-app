@@ -30,7 +30,7 @@ environment:
 # versions available, run `flutter pub outdated`.
 dependencies:
   flutter:
-    sdk: flutter  
+    sdk: flutter
   intl: ^0.17.0
   get_it: ^7.2.0
   http: ^0.13.5
@@ -40,7 +40,7 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
-  google_fonts:
+  google_fonts: ^4.0.4
 
 dev_dependencies:
   flutter_test:
@@ -58,20 +58,19 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
-
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  assets:  
+  assets:
     - assets/images/waiting.jpg
     - assets/images/bus-icon.png
     - assets/images/success-person.png
     - assets/images/valid-user.png
     - assets/images/3dMan.png
-    - assets/images/traveler.png    
+    - assets/images/traveler.png
     - assets/images/ticket-offic.png
     - assets/images/booth.png
     - assets/images/news-reportColorful.png
@@ -79,7 +78,7 @@ flutter:
     - assets/images/calendar2.png
     - assets/images/research.png
     - assets/images/busTicket.png
-    - assets/images/touring.png    
+    - assets/images/touring.png
     - assets/images/specification.png
     - assets/images/bus-stop.png
     - assets/images/due-date.png

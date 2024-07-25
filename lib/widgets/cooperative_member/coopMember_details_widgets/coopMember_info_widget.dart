@@ -3,7 +3,7 @@ import 'package:get_it/get_it.dart';
 import 'package:intl/intl.dart';
 import 'package:smarta1/services/coopMember_service.dart';
 import 'package:smarta1/utils/api_response.dart';
-import 'package:smarta1/widgets/cooperative/cooperative_details_widgets/Cooperative_city.dart';
+import 'package:smarta1/widgets/cooperative/cooperative_details_widgets/cooperative_city.dart';
 
 import '../../../services/cooperative_services.dart';
 

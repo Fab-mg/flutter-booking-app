@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:smarta1/widgets/cooperative/cooperative_details_widgets/Cooperative_city.dart';
+import './cooperative_city.dart';
 
 class CooperativeInfoWidget extends StatelessWidget {
   String nameCooperative;
